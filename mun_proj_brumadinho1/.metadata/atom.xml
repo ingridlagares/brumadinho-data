@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- pycsw 2.4.2 -->
+<csw:GetRecordByIdResponse xmlns:atom="http://www.w3.org/2005/Atom" xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:ows="http://www.opengis.net/ows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd">
+  <atom:entry xmlns:georss="http://www.georss.org/georss" xsi:schemaLocation="http://www.w3.org/2005/Atom http://www.kbcafe.com/rss/atom.xsd.xml">
+    <atom:author>
+      <atom:name>Clodoveu Davis</atom:name>
+    </atom:author>
+    <atom:category term="features"/>
+    <atom:category term="Municipio"/>
+    <atom:category term="mun_proj_brumadinho"/>
+    <atom:contributor>Clodoveu Davis</atom:contributor>
+    <atom:id>5527ad82-0a48-11eb-a655-02420a00040b</atom:id>
+    <dc:identifier>5527ad82-0a48-11eb-a655-02420a00040b</dc:identifier>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/download/36" type="WWW:DOWNLOAD-1.0-http--download" title="Municípios das chamadas do Projeto Brumadinho UFMG (Original Dataset Format)"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/geoserver/ows?service=WMS&amp;request=GetMap&amp;layers=geonode%3Amun_proj_brumadinho1&amp;format=image%2Fjpeg&amp;height=550&amp;width=550&amp;srs=EPSG%3A4674&amp;bbox=-45.414573669433600%2C-20.318769454956100%2C-43.965476989746100%2C-18.276603698730500" type="WWW:DOWNLOAD-1.0-http--download" title="Municípios das chamadas do Projeto Brumadinho UFMG (JPEG Format)"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/geoserver/ows?service=WMS&amp;request=GetMap&amp;layers=geonode%3Amun_proj_brumadinho1&amp;format=application%2Fpdf&amp;height=550&amp;width=550&amp;srs=EPSG%3A4674&amp;bbox=-45.414573669433600%2C-20.318769454956100%2C-43.965476989746100%2C-18.276603698730500" type="WWW:DOWNLOAD-1.0-http--download" title="Municípios das chamadas do Projeto Brumadinho UFMG (PDF Format)"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/geoserver/ows?service=WMS&amp;request=GetMap&amp;layers=geonode%3Amun_proj_brumadinho1&amp;format=image%2Fpng&amp;height=550&amp;width=550&amp;srs=EPSG%3A4674&amp;bbox=-45.414573669433600%2C-20.318769454956100%2C-43.965476989746100%2C-18.276603698730500" type="WWW:DOWNLOAD-1.0-http--download" title="Municípios das chamadas do Projeto Brumadinho UFMG (PNG Format)"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/geoserver/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typename=geonode%3Amun_proj_brumadinho1&amp;outputFormat=SHAPE-ZIP&amp;srs=EPSG%3A4674&amp;format_options=charset%3AUTF-8" type="WWW:DOWNLOAD-1.0-http--download" title="Municípios das chamadas do Projeto Brumadinho UFMG (Zipped Shapefile Format)"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/geoserver/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typename=geonode%3Amun_proj_brumadinho1&amp;outputFormat=csv&amp;srs=EPSG%3A4674" type="WWW:DOWNLOAD-1.0-http--download" title="Municípios das chamadas do Projeto Brumadinho UFMG (CSV Format)"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/geoserver/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typename=geonode%3Amun_proj_brumadinho1&amp;outputFormat=excel&amp;srs=EPSG%3A4674" type="WWW:DOWNLOAD-1.0-http--download" title="Municípios das chamadas do Projeto Brumadinho UFMG (Excel Format)"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/geoserver/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typename=geonode%3Amun_proj_brumadinho1&amp;outputFormat=text%2Fxml%3B+subtype%3Dgml%2F3.1.1&amp;srs=EPSG%3A4674" type="WWW:DOWNLOAD-1.0-http--download" title="Municípios das chamadas do Projeto Brumadinho UFMG (GML 3.1.1 Format)"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/geoserver/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typename=geonode%3Amun_proj_brumadinho1&amp;outputFormat=json&amp;srs=EPSG%3A4674&amp;srsName=EPSG%3A4674" type="WWW:DOWNLOAD-1.0-http--download" title="Municípios das chamadas do Projeto Brumadinho UFMG (GeoJSON Format)"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image/png&amp;WIDTH=20&amp;HEIGHT=20&amp;LAYER=geonode:mun_proj_brumadinho1&amp;STYLE=mun_proj_brumadinho1&amp;legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on" type="WWW:DOWNLOAD-1.0-http--download" title="Municípios das chamadas do Projeto Brumadinho UFMG (Legend Format)"/>
+    <atom:link href="-18.27660399943748&amp;crs=EPSG:4326&amp;width=240&amp;height=200&amp;access_token=mtSfd9wH8PZ9Hwf9DGwFVUQ5ThOyCH" type="WWW:DOWNLOAD-1.0-http--download" title="Municípios das chamadas do Projeto Brumadinho UFMG (Remote Thumbnail Format)"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/geoserver/ows" type="OGC:WMS" title="OGC WMS: geonode Service"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/geoserver/ows" type="OGC:WFS" title="OGC WFS: geonode Service"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/uploaded/thumbs/layer-5527ad82-0a48-11eb-a655-02420a00040b-thumb.png" type="WWW:DOWNLOAD-1.0-http--download" title="Municípios das chamadas do Projeto Brumadinho UFMG (Thumbnail Format)"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/geoserver/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typename=geonode%3Amun_proj_brumadinho1&amp;outputFormat=SHAPE-ZIP&amp;srs=EPSG%3A4674&amp;format_options=charset%3AUTF-8" type="WWW:DOWNLOAD-1.0-http--download" title="Municípios das chamadas do Projeto Brumadinho UFMG (Shapefile compactado (zip) Format)"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/geoserver/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typename=geonode%3Amun_proj_brumadinho1&amp;outputFormat=gml2&amp;srs=EPSG%3A4674" type="WWW:DOWNLOAD-1.0-http--download" title="Municípios das chamadas do Projeto Brumadinho UFMG (GML 2.0 Format)"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/layers/geonode_data:geonode:mun_proj_brumadinho1" type="WWW:LINK-1.0-http--link" title="Web address (URL)"/>
+    <atom:link href="http://ide.dev.projetobrumadinho.ufmg.br/catalogue/csw?service=CSW&amp;version=2.0.2&amp;request=GetRepositoryItem&amp;id=5527ad82-0a48-11eb-a655-02420a00040b"/>
+    <atom:title>Municípios das chamadas do Projeto Brumadinho UFMG</atom:title>
+    <atom:updated>2020-07-21T13:40:00Z</atom:updated>
+    <atom:published>2020-07-21T13:40:00Z</atom:published>
+    <atom:rights>otherRestrictions</atom:rights>
+    <atom:summary>Municípios incluídos nas chamadas do Projeto Brumadinho UFMG. Limites: IBGE.</atom:summary>
+    <georss:where>
+      <gml:Envelope srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+        <gml:lowerCorner>-20.318769 -45.414574</gml:lowerCorner>
+        <gml:upperCorner>-18.276604 -43.965477</gml:upperCorner>
+      </gml:Envelope>
+    </georss:where>
+  </atom:entry>
+</csw:GetRecordByIdResponse>
